@@ -4,9 +4,11 @@ unreleased/ fan made Travis Scott songs that also provide correct Lyrics.
 
 ## 1.1.2 Wire Frames
 ![Index Wireframe](assets/indexWireframe.png)
+
 This is the wireframe for the home/index page designed for pc primarily.
 
 ![Lyrics Wireframe](assets/lyricsWireframe.png)
+
 This is the wireframe for the lyrics pages designed for pc primarily.
 
 ## 1.1.3 Colour Choice
