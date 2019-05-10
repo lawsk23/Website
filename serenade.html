@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lyrics</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+        <header id = "yheader">
+            <h1>Lyrics</h1>
+        </header>
+        <nav class = "menu">
+            <div class="table">
+              <ul id="horizontal-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Trending</a></li>
+                <li><a href="#">Most viewed</a></li>
+                <li><a href="#">Newly added</a></li>
+              </ul>
+            </div>
+        </nav>
+       
+        <div class = "nav-img">
+            <div class = "yeah-thumbnail">
+                <video width="320" height="240" autoplay loop>
+                    <source src = "assets/serenade.mp4" type="video/mp4">
+                </video>
+                <h1>Serenade</h1>
+                <h2>Travis Scott</h2>
+                <h3>Released 2017</h3>
+            </div>
+        </div>
+        <div class ="player">
+            <iframe width="420" height="315"
+                src="https://www.youtube.com/embed/aA_Y4xGvRpE">
+            </iframe>
+        </div>
+        
+        <form class ="lyrics">
+            <p>
+                [Intro]
+                <br>
+                Red cups, my party hat on, you my party favor
+                <br>
+                Your trophy case filled with them accolades
+                <br>
+                When you leave, I just be hard as fuck
+                <br>
+                Hard as fuck, I'm tryna tell you somethin'
+                <br>
+                <br>
+                [Chorus]
+                <br>
+                Yah, yah, yah, yah, yah, yah, yah
+                <br>
+                'Fore you go and have your parade
+                <br>
+                'Fore your sun turn black and grey
+                <br>
+                Come home, let me serenade 'ya (yah, yah, yah, yah, yah)
+                <br>
+                Serenade 'ya (yah, yah), 'fore you go and have your parade
+                'Fore your sun turn black and grey
+                <br>
+                Come home, let me serenade 'ya (yah, yah, yah, yah, yah)
+                <br>
+                Serenade 'ya (yah, yah), 'fore you go and have your parade
+                <br>
+                'Fore your sun turn black and grey
+                <br>
+                Come home, let me serenade 'ya (Yah, yah, yah, yah, yah)
+                <br>
+                Serenade 'ya (yah, yah), 'fore you go and disobey
+                <br>
+                'Fore you let our love fade away, let's go back to our younger days
+                <br>
+                <br>
+                [Verse]
+                <br>
+                You back at strippin', I'ma go back straight to tippin'
+                <br>
+                My windows tinted they can't see me if I'm in it
+                <br>
+                Long distance I might use up all my minutes
+                <br>
+                My minutes, sippin' on somethin' prescription
+                <br>
+                So pop a-livin', I'm just tryna feed the children
+                <br>
+                Feed all my sisters, nigga, fuckin' all my bitches
+                <br>
+                I hand-I hand it and I get it, ain't know I'm with it
+                <br>
+                That girl off Henny, I ain't go unless you skinny
+                <br>
+                I need her thick, I can't do her if she skinny
+                <br>
+                I need her rich, I can't hand her that new Henny
+                <br>
+                I need some niggas who be down when I ain't busy
+                <br>
+                Hard work, hard work and dedication
+                <br>
+            </p>
+        </form>
+        <div>
+            <button onclick="myFunction()">Try it</button>
+        </div>
+        <script>
+            function myFunction() {
+                var element = document.getElementsByClassName("player");
+                element.classList.add("mystyle");
+                }
+        </script>
+        <footer id = "copyright">
+            <p>Copyright &copy; 2019, My Website</p>
+        </footer>
+    </body>
+</html>

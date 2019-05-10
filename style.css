@@ -1,0 +1,154 @@
+*{
+    font-family: Arial;
+    margin:0;
+    padding:0;
+}
+
+body{
+    margin:0px;
+    background: #f7f7f7;
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+}
+
+#homeVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -1;
+}
+
+.repo{
+    text-align: center;
+    padding: 10px;
+}
+
+.repo li{
+    color:#fff;
+}
+
+#title{
+    text-align: center;
+    padding: 10px;
+    background-color:#fff;
+    border-top: 4px solid black;
+}
+
+#copyright{
+    text-align: center;
+    padding: 10px;
+    color:#fff;
+}
+
+#sheader{
+    text-align:center;
+}
+
+#sera{
+    text-align:center;
+    padding:10px;
+}
+
+#yheader{
+    background-color:#ffff64;
+    text-align:center;
+    border-top: 4px solid black;
+}
+
+.vid1 ul{
+    padding:0;
+    list-style: none;
+}
+
+.table {
+	display: table;
+	margin: 0 auto;
+    text-transform:uppercase;
+    font-family:sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+#horizontal-list {
+	list-style: none;
+}
+
+#horizontal-list li {
+    display: inline;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.menu{
+    padding:.75rem .75rem;
+    background-color: #333;
+}
+
+.nav-img{
+    opacity: 0.5;
+    background-image: url('assets/blckbr.jpg')
+}
+
+.yeah-thumbnail{
+    padding-left: 4rem;
+}
+
+.yeah-thumbnail li{
+    color:#fff;
+}
+
+.yeah-thumbnail h1{
+    position:absolute;
+    color:#fff;
+    top:6.5rem;
+    margin-left: 21rem
+}
+
+.yeah-thumbnail h2{
+    position:absolute;
+    color:#fff;
+    top:10rem;
+    margin-left: 21rem
+}
+
+.yeah-thumbnail h3{
+    position:absolute;
+    color:#fff;
+    top:13.2rem;
+    margin-left: 21.2rem
+}
+
+.yeah-video{
+    position: absolute;
+    top:10rem;
+    margin-left: 30rem;
+}
+
+.lyrics{
+    margin-left: 25%;
+    margin-top:1.5rem;
+    line-height: 1.7em;
+    font-weight: 100;
+    font-size: 1.125em;
+    width:29rem;
+    height: 100%;
+    background: #fff;
+    padding-left:.75rem;
+}
+
+.player{
+    opacity: 1;
+    position: fixed;
+    margin-top: 1.7%;
+    margin-left: 62%;
+    
+}
+
+.mystle{
+    opacity: 0.2;
+}
