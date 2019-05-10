@@ -51,3 +51,15 @@ by creating gaps between each line and increasing hte font weight. In addition, 
 in this hypnotic psychedelic feel when first coming onto the website by constantly sending flashing bright images.
 However, a user doesnt want that when viewing lyrics because it will be destracting when trying to read. So, the lyrics
 pages gave off a lot more calming feel to them with white and peach colours and added opacity onto the thumbnail.
+
+## commit
+I have uploaded the website files to github by using the following commands:
+
+* git init
+* git config --global user.name 'lawsk23'
+* git config --global user.email '4lawsk23@solent.ac.uk'
+* git add .
+* git remote add origin https://github.com/lawsk23/Website.git
+* git remote
+* git commit -m "Final Website"
+* git push -u origin master
